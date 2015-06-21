@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  state: MyString
+  description: MyString
+  generated_id: MyString
+  brand: MyString
+  model: MyString
+  complect: MyString
+  serial: MyString
+  condition: MyString
+  phone: 1
+  about: MyString
+  base_price: 1
+  our_price: 1
+  our_serial: MyString
+
+two:
+  name: MyString
+  state: MyString
+  description: MyString
+  generated_id: MyString
+  brand: MyString
+  model: MyString
+  complect: MyString
+  serial: MyString
+  condition: MyString
+  phone: 1
+  about: MyString
+  base_price: 1
+  our_price: 1
+  our_serial: MyString
