@@ -2,7 +2,7 @@ class CreateOrders < ActiveRecord::Migration
   def change
     create_table :orders do |t|
       t.string :name
-      t.string :state
+      t.string :state, default: 'created'
       t.string :description
       t.string :generated_id
       t.string :brand
