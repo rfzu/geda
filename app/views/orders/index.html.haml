@@ -1,7 +1,10 @@
 Geda super CRM!
 
 %br
+= link_to 'Create new order', 'orders/new'
+%br
+%br
 
 - @orders.each do |order|
-  = "order number #{order.generated_id} - #{order.name}"
+  = link_to "order number #{order.generated_id} - #{order.name}", order
   %br

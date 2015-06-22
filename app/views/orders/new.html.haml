@@ -1,0 +1,39 @@
+Creating new order
+%br
+
+= form_for @order do |f|
+  = "Our_id:    #{@order.generate_our_id}"
+  %br
+  = "state:    #{@order.state}"
+  %br
+  = f.label 'Название'
+  = f.text_field :name
+  %br
+  = f.label 'Описание'
+  = f.text_field :description
+  %br
+  = f.label 'Брэнд'
+  = f.text_field :brand
+  %br
+  = f.label 'Модель'
+  = f.text_field :model
+  %br
+  = f.label 'Комплект'
+  = f.text_field :complect
+  %br
+  = f.label 'Серийный номер'
+  = f.text_field :serial
+  %br
+  = f.label 'Состояние'
+  = f.text_field :condition
+  %br
+  = f.label 'Телефон'
+  = f.phone_field :phone
+  %br
+  = f.label 'Об аппарате (диагноз)'
+  = f.text_field :about
+  %br
+  = f.label 'Объявленная цена'
+  = f.text_field :base_price  
+  %br
+  = f.submit
