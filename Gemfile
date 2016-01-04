@@ -25,6 +25,9 @@ gem 'haml'
 
 gem 'aws-sdk'
 
+gem 'typhoeus'
+gem 'nokogiri'
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
